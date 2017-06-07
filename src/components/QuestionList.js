@@ -15,6 +15,7 @@ export default class QuestionList extends React.Component {
                         image={item.image}
                         text={item.text}
                         variants={item.variants}
+                        onChange={console.log}
                     />
                 )}
             </div>

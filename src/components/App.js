@@ -25,18 +25,18 @@ function getQuestions() {
         {
             text: 'Какой вид тигров самый крупный?',
             variants: [
-                {value: 'amur', label: 'Амурский тигр', isRight: true},
-                {value: 'sumatrae', label: 'Суматранский тигр', isRight: false},
-                {value: 'indochn', label: 'Индокитайский тигр', isRight: false}
+                {value: 'amur', label: 'Амурский тигр'},
+                {value: 'sumatrae', label: 'Суматранский тигр'},
+                {value: 'indochn', label: 'Индокитайский тигр'}
             ]
         },
         {
             text: 'Какая из этих птиц умеет летать?',
             variants: [
-                {value: 'kiwi', label: 'Киви', isRight: false},
-                {value: 'baklan', label: 'Баклан', isRight: true},
-                {value: 'raphinae', label: 'Дронт', isRight: false},
-                {value: 'pinguin', label: 'Императорский пингвин', isRight: false}
+                {value: 'kiwi', label: 'Киви'},
+                {value: 'baklan', label: 'Баклан'},
+                {value: 'raphinae', label: 'Дронт'},
+                {value: 'pinguin', label: 'Императорский пингвин'}
             ]
         },
     ];
