@@ -33,10 +33,10 @@ function getQuestions() {
         {
             text: 'Какая из этих птиц умеет летать?',
             variants: [
-                {value: 'kiwi', label: 'Киви'},
-                {value: 'baklan', label: 'Баклан'},
-                {value: 'raphinae', label: 'Дронт'},
-                {value: 'pinguin', label: 'Императорский пингвин'}
+                {value: 1, label: 'Киви'},
+                {value: 2, label: 'Баклан'},
+                {value: 3, label: 'Дронт'},
+                {value: 4, label: 'Императорский пингвин'}
             ]
         },
     ];
@@ -45,7 +45,7 @@ function getQuestions() {
 /*
 export type QuestionType = {
     text: string,
-    image: ?string,
+    image?: string,
     variants: Variant[],
 }
 */
